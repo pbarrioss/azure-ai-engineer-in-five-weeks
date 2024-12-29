@@ -5,9 +5,7 @@ Welcome to the Azure AI Engineering in 5 Weeks repository. This repository is de
 <p align="center">
   <img src="utils/images/robot.png" alt="Azure AI" width="400"/>
   <br>
-  <span style="font-family: 'Roboto', sans-serif; font-size: 18px; color: #0078D4; font-style: italic; font-weight: bold;">
-    Let’s master the foundations to build solutions that truly matter with Azure AI.
-  </span>
+  <b>Let’s master the foundations to build solutions that truly matter with Azure AI.</b>
 </p>
 
 <br>

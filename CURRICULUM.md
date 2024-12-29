@@ -2,74 +2,62 @@
 
 Welcome to the Azure AI Engineering in 5 Weeks curriculum. This guide will help you navigate through the weekly lessons and practical sessions designed to enhance your skills in Azure AI services.
 
-## Table of Contents 📅
+# Table of Contents 📅
 - [Week 1: Introduction to Azure AI Services](#week-1-introduction-to-azure-ai-services-📘)
 - [Week 2: Advanced AI System Design](#week-2-advanced-ai-system-design-🛠️)
 - [Week 3: Operationalizing AI Systems](#week-3-operationalizing-ai-systems-⚙️)
 - [Week 4: Optimizing and Fine-Tuning AI Models](#week-4-optimizing-and-fine-tuning-ai-models-🔧)
 - [Week 5: Building AI Agents with Azure AI](#week-5-building-ai-agents-with-azure-ai-🤖)
 
-## Week by Week 📅!
+# Week by Week 📅
+
 ## Week 1: Introduction to Azure AI Services 📘
 ### Topics
 - **Overview of Azure AI Services**:
+  - Azure AI Foundry: Leran how to use the most comprehensive AI platform.
   - Azure OpenAI Service: Leverage large language models for NLP tasks.
   - Azure AI Search: Implement AI-powered search within applications.
   - Azure AI Document Intelligence: Process and extract information from documents.
   - Azure AI Vision Services: Image and video analysis tools.
   - Azure AI Speech Services: Speech recognition and synthesis functionalities.
-- **Cloud-Native AI Solution Architecture**:
-  - Designing scalable and resilient AI solutions on Azure.
-  - Integrating various Azure services in AI workflows.
 - **Introduction to Retrieval-Augmented Generation (RAG) Patterns**:
   - Combining retrieval-based methods with generative AI for enhanced performance.
   - Implementing basic RAG architectures using Azure services.
 
 ### Practical Session
 - **Building Your First Chatbot**:
-  - Set up a virtual environment on your machine.
   - Configure necessary Azure services.
-  - Develop a chatbot using Azure AI Search and Azure OpenAI through the Azure portal's UI.
+  - Develop a chatbot using Azure AI Search and Azure OpenAI through the Azure AI foundry portal's UI.
 
 ### Homework
-- **Mandatory**:
   - Reproduce the in-class chatbot deployment.
-  - Upload sample data (e.g., HR documents) and index it using Azure AI Search.
+  - Upload sample data (Contoso HR documents) and index it using Azure AI Search.
   - Implement hybrid search combining vector-based and keyword-based retrieval.
   - Enable question-answering capabilities using Azure OpenAI as the reasoning engine.
-- **Advanced (Optional)**:
-  - Utilize the Azure AI Search SDK to programmatically push data.
-  - Develop the chatbot in a code-first environment, deploying the final endpoint without relying on low-code tools.
+    - Complete the assignments in the `notebook_homework.ipynb` file located in the `weeks/week-1` folder.
+
 
 > **Note**: For setup and detailed instructions, refer to the [Week 1 README](./weeks/week-1/README.md).
 
 ## Week 2: Advanced AI System Design 🛠️
 ### Topics
-- **Deep Dive into RAG Patterns**:
-  - Advanced techniques for implementing RAG architectures.
-  - Enhancing retrieval accuracy and response generation.
-- **Multimodal AI Integration**:
-  - Combining text, image, and document data sources.
-  - Implementing AI solutions that process and generate multiple data types.
-- **LLM Routing and Caching**:
-  - Strategies for efficient model selection and response caching.
-  - Improving system performance and reducing latency.
+- **Introduction to Orchestration Frameworks**:
+  - **Semantic Kernel**: Explore Microsoft's open-source framework that facilitates the integration of large language models (LLMs) with conventional programming languages, enabling the creation and orchestration of complex AI solutions.
+- **Enhancing Chatbot Functionality with Multimodality**:
+  - **Multimodal AI Integration**: Learn how to extend your chatbot's capabilities by incorporating multiple data types, such as text, images, and documents, to provide richer and more context-aware interactions.
+  - **Azure AI Services**: Utilize services like Azure AI Vision and Azure AI Content Understanding to process and analyze diverse data modalities.
 
 ### Practical Session
-- **Developing a Compound AI System**:
-  - Integrate multiple Azure AI services into a cohesive application.
-  - Implement document intelligence for semantic data processing.
-  - Set up Cosmos DB for data storage and consistency.
-  - Apply LLM routing and caching mechanisms to optimize performance.
+- **Upgrading Your Chatbot with Semantic Kernel**:
+  - **Integration**: Rebuild the chatbot developed in Week 1 by incorporating Semantic Kernel as the orchestrator, allowing for seamless interaction between various AI services and data modalities.
+  - **Multimodal Capabilities**: Enhance the chatbot to process and respond to inputs beyond text, such as images and documents, utilizing Azure AI Services.
 
 ### Homework
-- **Mandatory**:
-  - Deploy your own compound AI system incorporating the discussed components.
-  - Ensure seamless integration and functionality of all services.
-- **Optional**:
-  - Enhance your system by adding multimodal capabilities, such as image understanding, to enrich user interactions.
+  - **Implement Multimodal Features**: Extend your chatbot to handle at least two data modality (e.g., image and document) using Semantic Kernel and Azure AI Services. Complete the assignments in the `notebook_homework.ipynb` file located in the `weeks/week-2` folder.
+  - **Advanced (Optional)**: Deploy the chatbot using the Semantic Kernel framework and streamlit containerized with Azure App Services or Azure Container Apps.
 
 > **Note**: For setup and detailed instructions, refer to the [Week 2 README](./weeks/week-2/README.md).
+
 
 ## Week 3: Operationalizing AI Systems ⚙️
 ### Topics
@@ -98,11 +86,14 @@ Welcome to the Azure AI Engineering in 5 Weeks curriculum. This guide will help 
 
 > **Note**: For setup and detailed instructions, refer to the [Week 3 README](./weeks/week-3/README.md).
 
-## Week 4: Optimizing and Fine-Tuning AI Models 🔧
+## Week 4: Optimizing AI Systems 🔧
 ### Topics
 - **Designing Scalable AI Systems**:
   - Architectural patterns for scalability in AI solutions.
   - Leveraging Azure's infrastructure to support large-scale AI deployments.
+- **Leveraging Small Language Models**:
+  - Introduction to small language models and their applications.
+  - Understanding the Phi-4 architecture and its benefits.
 - **Fine-Tuning Large Language Models (LLMs)**:
   - Techniques for customizing LLMs for specific domain tasks.
   - Tools and resources available in Azure for model fine-tuning.
@@ -125,25 +116,33 @@ Welcome to the Azure AI Engineering in 5 Weeks curriculum. This guide will help 
 
 ## Week 5: Building AI Agents with Azure AI 🤖
 ### Topics
-- **Leveraging Small Language Models and Phi-3 Architecture**:
-  - Introduction to small language models and their applications.
-  - Understanding the Phi-3 architecture and its benefits.
-- **Introduction to Multi-Agent Architectures**:
-  - Concepts and design principles of multi-agent AI systems.
-  - Use cases where multi-agent architectures provide advantages.
-- **Developing Robust AI Agents Using Azure AI Studio**:
-  - Tools and frameworks in Azure AI Studio for agent development.
-  - Best practices for deploying AI agents in production environments.
+- **Understanding Agent Architectures**:
+  - **Single-Agent Systems**: Explore the structure and functionality of standalone AI agents, including their decision-making processes and applications.
+  - **Multi-Agent Systems**: Delve into systems where multiple AI agents interact, collaborate, or compete to achieve individual or collective goals.
 
+- **Designing Multi-Agent System Architectures on Azure**:
+  - **System Design**: Learn to architect multi-agent applications using Azure services, ensuring scalability, security, and efficiency.
+  - **Communication Protocols**: Understand the methods and protocols that facilitate effective communication between agents.
+  - **Coordination Strategies**: Study strategies for coordinating tasks among agents to optimize performance and resource utilization.
+
+- **Quickstart: Building Agents in Azure**:
+  - **Azure AI Agent Service**: Introduction to Azure's fully managed service for building, orchestrating, and scaling AI agents.
+  - **Development Tools**: Overview of tools like Azure AI Foundry and Azure AI Studio for agent development.
+  - **Deployment Best Practices**: Guidelines for deploying AI agents in production environments, focusing on reliability and performance.
 ### Practical Session
 - **Prototyping a Multi-Agent System**:
-  - Building a multi-agent system integrated into a RAG pattern.
-  - Ensuring effective communication and coordination between agents.
-
+  - **Integration with RAG Patterns**: Implement a multi-agent system that utilizes Retrieval-Augmented Generation (RAG) to enhance information retrieval and response generation.
+  - **Agent Collaboration**: Set up agents with distinct roles that collaborate to complete complex tasks, demonstrating effective inter-agent communication.
+  - **Azure Services Utilization**: Leverage Azure AI Agent Service and other relevant Azure services to build and deploy your multi-agent system.
 ### Homework
 - **Mandatory**:
-  - Prototype a multi-agent system using Azure AI Studio, demonstrating integration with RAG patterns. Provide documentation and a demo of the system.
+  - **Prototype Development**: Develop a multi-agent system using Azure AI Foundry, showcasing integration with RAG patterns.
+  - **Documentation**: Provide comprehensive documentation detailing the system architecture, agent roles, communication protocols, and deployment process.
+  - **Demonstration**: Prepare a demo that illustrates the functionality and effectiveness of your multi-agent system.
+
 - **Optional**:
-  - Explore advanced features, such as agent collaboration strategies or incorporating additional modalities into the agents' capabilities.
+  - **Advanced Features Exploration**: Investigate and implement advanced features such as complex agent collaboration strategies, incorporating additional data modalities (e.g., visual or auditory data), or enhancing agent learning capabilities.
 
 > **Note**: For setup and detailed instructions, refer to the [Week 5 README](./weeks/week-5/README.md).
+
+

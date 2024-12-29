@@ -9,8 +9,6 @@
 - [In-Class Activities](#in-class-activities-🛠️)
 - [Assignments](#assignments-📝)
 - [Setup Instructions](#setup-instructions-⚙️)
-- [Notes](#notes-🗒️)
-- [References](#references-🔗)
 
 ## Overview 📋
 This week focuses on advanced AI system design, including deep dives into RAG patterns, multimodal AI integration, and LLM routing and caching. You'll learn how to enhance retrieval accuracy, integrate multiple data types, and optimize system performance.
@@ -46,11 +44,3 @@ This week focuses on advanced AI system design, including deep dives into RAG pa
 
 ## Setup Instructions ⚙️
 Provide step-by-step instructions for any software installations or environment configurations needed for the week's activities.
-
-## Notes 🗒️
-Ensure you have the necessary Azure subscriptions and permissions to access the required services.
-Review the provided materials and complete the setup instructions before starting the in-class activities.
-
-## References 🔗
-Azure AI Services Documentation
-Azure OpenAI Service
