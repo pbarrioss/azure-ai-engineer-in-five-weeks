@@ -9,8 +9,7 @@ Welcome to the Azure AI Engineering in 5 Weeks curriculum. This guide will help 
 - [Week 4: Optimizing and Fine-Tuning AI Models](#week-4-optimizing-and-fine-tuning-ai-models-🔧)
 - [Week 5: Building AI Agents with Azure AI](#week-5-building-ai-agents-with-azure-ai-🤖)
 
-## Week by Week 📅
-
+## Week by Week 📅!
 ## Week 1: Introduction to Azure AI Services 📘
 ### Topics
 - **Overview of Azure AI Services**:

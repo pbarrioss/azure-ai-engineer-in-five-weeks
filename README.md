@@ -2,6 +2,16 @@
 
 Welcome to the Azure AI Engineering in 5 Weeks repository. This repository is designed to accelerate your journey in mastering Azure AI services. By working through these resources, you'll become a skilled AI practitioner capable of developing advanced AI solutions with Azure.
 
+<p align="center">
+  <img src="utils/images/robot.png" alt="Azure AI" width="400"/>
+  <br>
+  <span style="font-family: 'Roboto', sans-serif; font-size: 18px; color: #0078D4; font-style: italic; font-weight: bold;">
+    Let’s master the foundations to build solutions that truly matter with Azure AI.
+  </span>
+</p>
+
+<br>
+
 ## 📁 Repository Structure 
 
 This repository is organized to enhance your learning experience by structuring resources into weekly lessons. Each week focuses on a specific theme and builds upon the concepts learned previously:
@@ -17,22 +27,22 @@ This repository is organized to enhance your learning experience by structuring 
 
 ## 🚀 Getting Started
 
-1. **Fork the repository**:
+**1. Fork the repository**:
    - Click the "Fork" button at the top right of the repository page on GitHub.
 
-2. **Clone your forked repository**:
+**2. Clone your forked repository**:
    ```bash
    git clone https://github.com/yourusername/azure-ai-engineering-5-weeks.git
    ```
-3. **Navigate to the folder for the week you are working on**:
+**3. Navigate to the folder for the week you are working on**:
    ```bash
    cd azure-ai-engineering-5-weeks/weeks/week-1
    ```
-4. **Follow the instructions**:
+**4. Follow the instructions**:
    - Open the `README.md` file in the folder for detailed instructions.
    - Explore and run the interactive notebooks (`notebook_inclass.ipynb`).
 
-5. **Start your learning journey**:
+**5. Start your learning journey**:
    - Work through the materials and complete the assignments (`notebook_homework.ipynb`) to reinforce your understanding.
 
 ## 🤝 License
