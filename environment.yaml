@@ -1,4 +1,4 @@
-name: my-template-environment
+name: ai-engineering-bootcamp
 channels:
   - conda-forge
   - defaults
