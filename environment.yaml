@@ -2,10 +2,11 @@ name: ai-engineering-bootcamp
 channels:
   - conda-forge
   - defaults
+  - jupyter
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
+  - ipykernel
   - pip:
     - -r requirements.txt
     - -r requirements-codequality.txt
-    - -r requirements-pipelines.txt

@@ -12,17 +12,17 @@ Welcome to the Azure AI Engineering in 5 Weeks repository. This repository is de
 
 ## 📁 Repository Structure 
 
-This repository is organized to enhance your learning experience by structuring resources into weekly lessons. Each week focuses on a specific theme and builds upon the concepts learned previously:
+This repository is organized to enhance your learning experience by structuring resources into weekly lessons. Each week focuses on a specific theme, building upon the concepts learned previously:
 
-- **Weekly Folders (`weeks/`)**: Each folder represents a week of learning and includes:
-  - **`README.md`**: Detailed overview of weekly topics, setup instructions, objectives, and goals.
-  - **`notebook_inclass.ipynb`**: Hands-on activities for live sessions.
-  - **`notebook_homework.ipynb`**: Assignments to reinforce concepts and practical implementation.
-  - **`assets/`**: Presentations, documentation, and other supplementary materials.
-- **`src/`**: Reusable and modular code for exercises and projects throughout the 5 weeks.
+- **Weekly Folders (`weeks/`)**: Each folder represents a week's worth of training and includes:
+  - **`README.md`**: A detailed overview of weekly topics, setup instructions, objectives, and goals.
+  - **`lab.ipynb`**: An interactive, step-by-step notebook designed for hands-on practice of weekly topics and training.
+  - **`quiz.md`**: A short quiz to test your understanding of the week's concepts.
+  - **`assets/`**: Presentations, documentation, and supplementary materials.
 
-> **Note**: Check the [CURRICULUM](./CURRICULUM.md) to see the detailed week-by-week plan.
+- **`src/`**: Reusable and modular code for exercises and projects throughout the five weeks.
 
+> **Note**: Visit the [CURRICULUM](./CURRICULUM.md) for a detailed, week-by-week plan.
 ## 🚀 Getting Started
 
 **1. Fork the repository**:

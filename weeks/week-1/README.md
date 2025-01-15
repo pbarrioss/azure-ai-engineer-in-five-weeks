@@ -4,7 +4,6 @@
 - [Overview](#overview-📋)
 - [Learning Objectives](#learning-objectives-🎯)
 - [Prerequisites](#prerequisites-📚)
-- [Schedule](#schedule-🗓️)
 - [Materials](#materials-📂)
 - [In-Class Activities](#in-class-activities-🛠️)
 - [Assignments](#assignments-📝)
@@ -31,14 +30,6 @@ To make the most of this session, you should have:
   - Ensure you have access to the Azure AI Foundry platform.
   - Set up an Azure subscription with permissions to deploy and use services like Azure AI Search and Azure OpenAI.
 > For more details, see the [Setup Instructions](#setup-instructions-⚙️).
-
-## Schedule 🗓️
-The content is divided into a series of sessions:
-
-- **Hour 1**: Overview of Azure AI Services
-- **Hour 2**: Cloud-Native AI RAG Solution Architecture
-- **Hour 3**: Building Your First Chatbot with Azure AI
-- **Hour 4**: Advanced Features + Wrap-Up
 
 ## Materials 📂
 - **Slides**: [Link to presentation slides]
