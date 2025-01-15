@@ -59,7 +59,7 @@ class PolicyIndexingPipeline:
     A pipeline to automate the process of indexing policy documents into Azure Cognitive Search.
     """
 
-    def __init__(self, config_path: str = "src/pipeline/policyIndexer/settings.yaml"):
+    def __init__(self, config_path: str = "src/aisearch/settings.yaml"):
         """
         Initialize the PolicyIndexingPipeline with configuration from a YAML file.
 
