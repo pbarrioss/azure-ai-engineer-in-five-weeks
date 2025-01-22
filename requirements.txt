@@ -52,3 +52,10 @@ azure-ai-inference[opentelemetry]
 opentelemetry-exporter-otlp 
 azure-ai-projects 
 opentelemetry-instrumentation-httpx
+
+## Added in Week 3
+azure-ai-projects
+azure-identity
+azure-ai-inference
+azure-ai-evaluation
+plotly
