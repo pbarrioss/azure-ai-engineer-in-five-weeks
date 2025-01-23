@@ -39,7 +39,7 @@ load_dotenv()
 
 ## Constants
 # Assumes you are running this script from the week-3 folder
-ASSET_PATH = pathlib.Path(os.getcwd()) / "assets"
+ASSET_PATH = pathlib.Path(os.getcwd()).parent.resolve() / "assets"
 AIPROJECT_CONNECTION_STRING = os.environ.get("AIPROJECT_CONNECTION_STRING")
 AISEARCH_INDEX_NAME = os.environ.get("AISEARCH_INDEX_NAME")
 EVALUATION_MODEL=os.environ.get("EVALUATION_MODEL")

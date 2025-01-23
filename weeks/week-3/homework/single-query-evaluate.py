@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 if __name__ == "__main__":
-    ASSET_PATH = pathlib.Path(os.getcwd()) / "assets"
+    ASSET_PATH = pathlib.Path(os.getcwd()).parent.resolve() / "assets"
     AIPROJECT_CONNECTION_STRING = os.environ.get("AIPROJECT_CONNECTION_STRING")
     EVALUATION_MODEL=os.environ.get("EVALUATION_MODEL")
     AISEARCH_INDEX_NAME = os.environ.get("AISEARCH_INDEX_NAME")

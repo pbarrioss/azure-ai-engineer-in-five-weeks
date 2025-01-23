@@ -18,12 +18,12 @@ To be successful with this week's homework, please be sure to have completed the
     `pip install -r requirements.txt`
 5. Verify that the `genaiapp.py` script works by executing:
     ```bash
-    cd /path/to/weeks/week-3
+    cd /path/to/weeks/week-3/homework
     python ./genaiapp.py
     ```
 6. Read through the genaiapp.py code to verify your understanding of what it's doing. Follow the links to learn more about evaluation.
 7. Perform prompt engineering on the `week-3/assets/grounded_chat.prompty` file.
-8. Evaluate your results across the test set by running `python ./single-query-evaluate.py` with the `week-3` folder as the current working directory.
+8. Evaluate your results across the test set by running `python ./single-query-evaluate.py` with the `week-3/homework` folder as the current working directory.
 
 ---
 ## Assignment Evaluation
