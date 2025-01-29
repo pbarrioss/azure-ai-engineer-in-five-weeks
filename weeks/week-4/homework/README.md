@@ -17,7 +17,7 @@ For this week's lab, follow the **step-by-step** notebook provided in the course
   2. **Describe the functionality** of the app, focusing on:
      - How **semantic caching / DB** is used to **save tokens** and **speed up requests**.
      - How the app processes an input query, fetches embeddings/vectors (if used), and communicates with the LLM.
-  3. **Demo** Try few queueyis and demosntaret tee fucntinalait. 
+  3. **Demo** Try few queries as `What is covered under the PerksPlus program?`or `What health plans are available at Contoso Electronics?` and demonstrate the functionality. 
 - **Video Upload**:
   - Host the video on **your own site**, **Vimeo**, **YouTube**, or any preferred platform.
   - Provide the **public link** or **upload** it to the platform.
