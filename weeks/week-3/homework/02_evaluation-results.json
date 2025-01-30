@@ -1,0 +1,85 @@
+{
+    "groundedness": {
+        "0": {
+            "groundedness": 5.0,
+            "gpt_groundedness": 5.0,
+            "groundedness_reason": "The response thoroughly and accurately addresses the query about the benefits of the PerksPlus program, including relevant details from the context. It does not introduce any extraneous information and directly relates to the question asked."
+        },
+        "1": {
+            "groundedness": 1.0,
+            "gpt_groundedness": 1.0,
+            "groundedness_reason": "The response does not relate to the context at all, as the context does not provide any information about windows or New York City. It fails to address the query in a relevant manner, leading to a score of 1 for groundedness."
+        },
+        "2": {
+            "groundedness": 2.0,
+            "gpt_groundedness": 2.0,
+            "groundedness_reason": "The RESPONSE provides a comprehensive answer to the QUERY about evaluation processes, but it is not supported by the CONTEXT, which lacks any relevant information about evaluations. Thus, the RESPONSE is not grounded in the provided CONTEXT."
+        }
+    },
+    "query": {
+        "0": "What are the benefits of the PerksPlus program?",
+        "1": "How many windows are there in new york?",
+        "2": "How will I be evaluated each year? "
+    },
+    "response": {
+        "0": "The PerksPlus program for Contoso Electronics employees offers several benefits, primarily focused on health and wellness reimbursement. Employees can receive reimbursements for various health-related expenses, promoting overall well-being and encouraging a healthy lifestyle. This program helps employees manage their health costs, supports their wellness goals, and enhances job satisfaction by providing financial assistance for health-related activities and services.",
+        "1": "The exact number of windows in New York City is difficult to determine due to the city's vast and changing landscape, including residential, commercial, and industrial buildings. However, estimates suggest there could be millions of windows, considering the high density of buildings in the city. For a more precise figure, a specialized study or survey would be required.",
+        "2": "Each year, you will typically be evaluated through a performance review process. This process often includes the following components:\n\n1. **Set Objectives**: At the beginning of the performance period, you and your manager may set specific goals and objectives that align with the company's priorities.\n\n2. **Self-Assessment**: You may be asked to complete a self-assessment, reflecting on your achievements, challenges, and development needs over the past year.\n\n3. **Manager's Evaluation**: Your manager will evaluate your performance based on your goals, contributions to the team, and overall impact on the organization.\n\n4. **Feedback**: Both formal and informal feedback may be provided throughout the year, which can influence the final evaluation.\n\n5. **Performance Ratings**: You may receive a performance rating or score based on the evaluation criteria established by your organization.\n\n6. **Development Discussion**: The review process often includes a conversation about your career development, potential growth opportunities, and any training needs.\n\n7. **Annual Summary**: At the end of the review process, you will receive a summary of your performance evaluation, which may inform decisions about compensation, promotions, or professional development. \n\nIt\u2019s important to check with your HR department for specific details related to your organization\u2019s evaluation process."
+    },
+    "context": {
+        "0": [
+            [
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjA=",
+                    "content": "Title: PerksPlus.pdf \n \n \nPerksPlus Health and Wellness  \nReimbursement Program for \nContoso Electronics Employees  \n \n \n \n \n \n  \n",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "1": [
+            [
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                },
+                {
+                    "id": "cm9sZV9saWJyYXJ5LnBkZjE=",
+                    "content": "Title: role_library.pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "role_library.pdf",
+                    "title": "",
+                    "url": "role_library.pdf"
+                }
+            ]
+        ],
+        "2": [
+            [
+                {
+                    "id": "cm9sZV9saWJyYXJ5LnBkZjE=",
+                    "content": "Title: role_library.pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "role_library.pdf",
+                    "title": "",
+                    "url": "role_library.pdf"
+                },
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                }
+            ]
+        ]
+    }
+}

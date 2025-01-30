@@ -1,0 +1,85 @@
+{
+    "groundedness": {
+        "0": {
+            "groundedness": 4.0,
+            "gpt_groundedness": 4.0,
+            "groundedness_reason": "The RESPONSE provides relevant information about potential benefits of the PerksPlus program but lacks specific details from the CONTEXT. It is partially correct but does not fully address the QUERY with the information available, hence it deserves a score of 4."
+        },
+        "1": {
+            "groundedness": 1.0,
+            "gpt_groundedness": 1.0,
+            "groundedness_reason": "The RESPONSE does not relate to the QUERY or CONTEXT at all, as it fails to provide any relevant information regarding the number of windows in New York and instead focuses on human resources, which is unrelated. Thus, it deserves the lowest score for groundedness."
+        },
+        "2": {
+            "groundedness": 4.0,
+            "gpt_groundedness": 4.0,
+            "groundedness_reason": "The RESPONSE provides a thorough overview of how evaluations typically occur, which is relevant to the QUERY. However, it does not connect to the specific context provided, which limits its groundedness. Therefore, it is rated as a 4 for being partially correct but lacking specific context."
+        }
+    },
+    "query": {
+        "0": "What are the benefits of the PerksPlus program?",
+        "1": "How many windows are there in new york?",
+        "2": "How will I be evaluated each year? "
+    },
+    "response": {
+        "0": "The PerksPlus program offers several benefits to Contoso Electronics employees, primarily focusing on health and wellness. While specific details were not provided, typically such programs may include:\n\n1. Health and Wellness Reimbursements: Employees may receive reimbursements for gym memberships, fitness classes, or wellness activities that promote physical health.\n2. Preventive Care Support: Coverage for preventive health screenings and services to encourage proactive health management.\n3. Mental Health Resources: Access to counseling and mental health support services.\n4. Employee Assistance Programs (EAP): Resources that assist employees with personal issues or work-related challenges.\n5. Flexible Spending Accounts (FSA): Options for employees to set aside pre-tax dollars for medical expenses.\n\nThese benefits aim to enhance employee well-being and promote a healthier work-life balance. For specific details about the offerings, it's advisable to refer to the program documentation or speak with HR directly.",
+        "1": "I\u2019m sorry, but I don't have information on the number of windows in New York or any other city. My expertise is in human resources and employee benefits. If you have any questions related to those topics, feel free to ask!",
+        "2": "Annual evaluations typically involve several key components, which may include:\n\n1. **Performance Goals**: You will likely have specific performance goals set at the beginning of the review period. Your progress towards these goals will be a significant factor in your evaluation.\n\n2. **Self-Assessment**: Many organizations require employees to complete a self-assessment that reflects on achievements, challenges, and areas for improvement.\n\n3. **Manager Review**: Your supervisor or manager will assess your performance based on their observations, your achievements, and your self-assessment, often taking into account collaboration, communication, and adherence to company values.\n\n4. **Feedback from Peers**: Some organizations incorporate 360-degree feedback, gathering input from colleagues and other stakeholders to provide a more comprehensive view of your performance.\n\n5. **Skill Development**: Evaluations may also consider your engagement in professional development activities and your willingness to learn and grow.\n\n6. **Rating Scale**: Often, evaluations will utilize a rating scale to quantify performance levels in various competencies and criteria.\n\n7. **Development Plan**: At the conclusion of the evaluation, a development plan may be established to address areas for improvement and outline opportunities for growth.\n\nIt\u2019s important to consult your company's specific evaluation process for detailed guidelines tailored to your organization."
+    },
+    "context": {
+        "0": [
+            [
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjA=",
+                    "content": "Title: PerksPlus.pdf \n \n \nPerksPlus Health and Wellness  \nReimbursement Program for \nContoso Electronics Employees  \n \n \n \n \n \n  \n",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "1": [
+            [
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "2": [
+            [
+                {
+                    "id": "cm9sZV9saWJyYXJ5LnBkZjE=",
+                    "content": "Title: role_library.pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "role_library.pdf",
+                    "title": "",
+                    "url": "role_library.pdf"
+                },
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                }
+            ]
+        ]
+    }
+}

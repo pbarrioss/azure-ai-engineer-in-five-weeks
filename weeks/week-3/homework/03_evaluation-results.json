@@ -1,0 +1,85 @@
+{
+    "groundedness": {
+        "0": {
+            "groundedness": 4.0,
+            "gpt_groundedness": 4.0,
+            "groundedness_reason": "The RESPONSE provides a relevant list of potential benefits of the PerksPlus program but does not include specific details from the CONTEXT. It captures the essence of the QUERY but lacks completeness, which is why it receives a score of 4."
+        },
+        "1": {
+            "groundedness": 1.0,
+            "gpt_groundedness": 1.0,
+            "groundedness_reason": "The response does not relate to the query about the number of windows in New York and instead discusses human resources, which is irrelevant. Thus, it deserves the lowest score for groundedness."
+        },
+        "2": {
+            "groundedness": 2.0,
+            "gpt_groundedness": 2.0,
+            "groundedness_reason": "The RESPONSE provides a detailed answer about annual evaluations but does not relate to the specific context provided, which does not mention evaluations. Thus, it is relevant to the topic but not grounded in the context, justifying a score of 2."
+        }
+    },
+    "query": {
+        "0": "What are the benefits of the PerksPlus program?",
+        "1": "How many windows are there in new york?",
+        "2": "How will I be evaluated each year? "
+    },
+    "response": {
+        "0": "The PerksPlus program offers various health and wellness benefits for Contoso Electronics employees. While specific details are not provided, such programs typically include:\n\n1. **Health Reimbursement**: Employees may receive reimbursement for eligible health and wellness expenses, such as gym memberships, fitness classes, or health screenings.\n\n2. **Wellness Incentives**: The program might offer incentives for participating in wellness activities or achieving health-related goals.\n\n3. **Mental Health Support**: Access to resources or counseling services to promote mental health and well-being.\n\n4. **Preventive Care**: Coverage or reimbursement for preventive health measures, encouraging employees to maintain their health.\n\n5. **Flexible Spending Accounts**: Options for employees to set aside pre-tax dollars for medical expenses.\n\n6. **Educational Resources**: Access to information and tools for improving health and wellness.\n\nThese benefits can contribute to overall employee well-being and job satisfaction. For specific details, employees should refer to the program documentation or HR representatives.",
+        "1": "I don't have information on the number of windows in New York. However, if you have questions related to human resources or employee benefits, feel free to ask!",
+        "2": "Annual evaluations typically involve a formal review process where your performance is assessed based on specific criteria set by your organization. This may include:\n\n1. **Performance Goals:** Evaluation against the goals and objectives established at the beginning of the review period.\n2. **Key Performance Indicators (KPIs):** Measurement through predefined metrics that align with your job responsibilities.\n3. **Competencies and Skills:** Assessment of your skills, competencies, and professional behaviors related to your role.\n4. **Feedback:** Incorporation of feedback from peers, supervisors, or direct reports, often through a 360-degree feedback process.\n5. **Self-Assessment:** A self-evaluation where you reflect on your contributions, challenges, and areas for improvement.\n6. **Discussion with Management:** A one-on-one discussion with your supervisor to go over the evaluation, discuss areas of strength, and identify opportunities for growth.\n\nThe specific process can vary by organization, so it is advisable to refer to your company's performance evaluation guidelines for detailed information."
+    },
+    "context": {
+        "0": [
+            [
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjA=",
+                    "content": "Title: PerksPlus.pdf \n \n \nPerksPlus Health and Wellness  \nReimbursement Program for \nContoso Electronics Employees  \n \n \n \n \n \n  \n",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "1": [
+            [
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                },
+                {
+                    "id": "UGVya3NQbHVzLnBkZjE=",
+                    "content": "Title: PerksPlus.pdfThis document contains information generated using a language model (Azure OpenAI ). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "PerksPlus.pdf",
+                    "title": "",
+                    "url": "PerksPlus.pdf"
+                }
+            ]
+        ],
+        "2": [
+            [
+                {
+                    "id": "QmVuZWZpdF9PcHRpb25zLnBkZjE=",
+                    "content": "Title: Benefit_Options.pdfThis document contains information generated using a language model (Azure OpenAI). The information \ncontained in this document is only for demonstration purposes and does not reflect the opinions or \nbeliefs of Microsoft. Microsoft makes no representations or warranties of any kind, express or implied, \nabout the completeness, accuracy, reliability, suitability or availability with respect to the information \ncontained in this document. \nAll rights reserved to Microsoft",
+                    "filepath": "Benefit_Options.pdf",
+                    "title": "",
+                    "url": "Benefit_Options.pdf"
+                },
+                {
+                    "id": "cm9sZV9saWJyYXJ5LnBkZjE=",
+                    "content": "Title: role_library.pdfThis document contains information generated using a language model (Azure OpenAI). The \ninformation contained in this document is only for demonstration purposes and does not \nreflect the opinions or beliefs of Microsoft. Microsoft makes no representations or \nwarranties of any kind, express or implied, about the completeness, accuracy, reliability, \nsuitability or availability with respect to the information contained in this document.  \nAll rights reserved to Microsoft  \n  ",
+                    "filepath": "role_library.pdf",
+                    "title": "",
+                    "url": "role_library.pdf"
+                }
+            ]
+        ]
+    }
+}
